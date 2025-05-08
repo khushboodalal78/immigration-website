@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar - BOUNDLESS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg px-3">
+      <a class="navbar-brand fw-bold text-dark" href="#">BOUNDLESS</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="#"
+              ><i class="fas fa-user me-2"></i>For Individuals</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="#"
+              ><i class="fas fa-briefcase me-2"></i>For Businesses</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="#"
+              ><i class="fas fa-newspaper me-2"></i>News & Reports</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center" href="#"
+              ><i class="fas fa-info-circle me-2"></i>About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-login ms-2" href="#"
+              ><i class="fas fa-sign-in-alt me-2"></i>Login</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="hero-section">
+      <video autoplay muted loop>
+        <source
+          src="https://www.codecompany.bg/video/Awards%20Background%20Loop%204K.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      <div class="hero-text">
+        
+      </div>
+    </div>
+
+    <div class="section-container">
+      <div class="section-left">
+        <h1>Boundless:</h1>
+        <span>Immigration That</span>
+        <span>Works</span>
+        <h4>For You</h4>
+        <p>
+          We make every step of immigration easier—from strategy and planning to
+          execution and compliance—so families, professionals, and companies can
+          achieve their U.S. goals.
+        </p>
+        <a href="#" class="btn-individuals">
+          For Individuals <i class="fa-solid fa-arrow-down"></i>
+        </a>
+      </div>
+
+      <div class="section-right">
+        <div class="image-container">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/09/Homepage-hero-aspect-ratio-min-scaled-1.webp"
+            alt="First Image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="section-container">
+      <div class="section-left">
+        <h1>Boundless:</h1>
+        <span>Immigration That</span>
+        <span>Works</span>
+        <h4>For You</h4>
+        <p>
+          We make every step of immigration easier—from strategy and planning to
+          execution and compliance—so families, professionals, and companies can
+          achieve their U.S. goals.
+        </p>
+        <a href="#" class="btn-individuals">
+          For Individuals <i class="fa-solid fa-arrow-down"></i>
+        </a>
+      </div>
+
+      <div class="section-right">
+        <div class="image-container">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/09/Homepage-hero-aspect-ratio-min-scaled-1.webp"
+            alt="First Image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="section-container" style="padding: 20px;">
+      <div class="section-left">
+        <section class="max-w-2xl mx-auto p-4">
+          <h2 class="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
+
+          <div class="space-y-4">
+            <div class="faq-item">
+              <button
+                style="border: none"
+                class="w-full text-left font-semibold text-lg p-3 bg-white rounded-md shadow-md"
+                onclick="toggleFAQ(this)"
+              >
+                1. What is your return policy?
+              </button>
+              <p style="font-size: 1rem;" class="faq-answer mt-2 text-gray-700">
+                Our return policy allows returns within 30 days of purchase with
+                the original receipt.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <button
+                style="border: none"
+                class="w-full text-left font-semibold text-lg p-3 bg-white rounded-md shadow-md"
+                onclick="toggleFAQ(this)"
+              >
+                2. How do I track my order?
+              </button>
+              <p  style="font-size: 1rem;" class="faq-answer mt-2 text-gray-700">
+                You can track your order through your account dashboard or the
+                tracking link provided via email.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <button
+                style="border: none"
+                class="w-full text-left font-semibold text-lg p-3 bg-white rounded-md shadow-md"
+                onclick="toggleFAQ(this)"
+              >
+                3. Do you offer international shipping?
+              </button>
+              <p style="font-size: 1rem;" class="faq-answer mt-2 text-gray-700">
+                Yes, we offer international shipping to select countries.
+                Shipping fees may apply.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <button
+                style="border: none"
+                class="w-full text-left font-semibold text-lg p-3 bg-white rounded-md shadow-md"
+                onclick="toggleFAQ(this)"
+              >
+                4. Can I change or cancel my order?
+              </button>
+              <p style="font-size: 1rem;" class="faq-answer mt-2 text-gray-700">
+                Orders can be changed or canceled within 24 hours of purchase.
+              </p>
+            </div>
+
+            <div class="faq-item">
+              <button
+                style="border: none"
+                class="w-full text-left font-semibold text-lg p-3 bg-white rounded-md shadow-md"
+                onclick="toggleFAQ(this)"
+              >
+                5. How do I contact customer support?
+              </button>
+              <p style="font-size: 1rem;" class="faq-answer mt-2 text-gray-700">
+                You can contact customer support via email at
+                support@example.com or call +1-234-567-890.
+              </p>
+            </div>
+          </div>
+
+          <script>
+            function toggleFAQ(button) {
+              const answer = button.nextElementSibling;
+              answer.style.display =
+                answer.style.display === "none" ? "block" : "none";
+            }
+          </script>
+        </section>
+      </div>
+
+      <div class="section-right">
+        <div class="services">
+          <div class="service-item">
+            <i class="fas fa-briefcase"></i><span>Business Consulting</span>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-passport"></i><span>Visa Assistance</span>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-user-shield"></i><span>Legal Support</span>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-globe"></i><span>Global Mobility</span>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-passport"></i><span>Visa Assistance</span>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-user-shield"></i><span>Legal Support</span>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-globe"></i><span>Global Mobility</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="faq-services">
+        <div class="faq">
+          <h3>Frequently Asked Questions</h3>
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What services do you offer?</button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">We offer visa assistance, legal support, business consulting, and global mobility solutions.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What services do you offer?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">We offer visa assistance, legal support, business consulting, and global mobility solutions.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What services do you offer?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">We offer visa assistance, legal support, business consulting, and global mobility solutions.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What services do you offer?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">We offer visa assistance, legal support, business consulting, and global mobility solutions.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What services do you offer?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">We offer visa assistance, legal support, business consulting, and global mobility solutions.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What services do you offer?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">We offer visa assistance, legal support, business consulting, and global mobility solutions.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What services do you offer?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">We offer visa assistance, legal support, business consulting, and global mobility solutions.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What services do you offer?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">We offer visa assistance, legal support, business consulting, and global mobility solutions.</div>
+                </div>
+              </div>
+          </div>
+        </div>
+      
+        <div class="services">
+            <div class="service-item"><i class="fas fa-briefcase"></i><span>Business Consulting</span></div>
+            <div class="service-item"><i class="fas fa-passport"></i><span>Visa Assistance</span></div>
+            <div class="service-item"><i class="fas fa-user-shield"></i><span>Legal Support</span></div>
+            <div class="service-item"><i class="fas fa-globe"></i><span>Global Mobility</span></div>
+            <div class="service-item"><i class="fas fa-passport"></i><span>Visa Assistance</span></div>
+            <div class="service-item"><i class="fas fa-user-shield"></i><span>Legal Support</span></div>
+            <div class="service-item"><i class="fas fa-globe"></i><span>Global Mobility</span></div>
+          </div>
+      </div> -->
+
+    <div class="container">
+      <div class="left-section">
+        <div class="icon-box">
+          <img
+            src="https://img.icons8.com/ios-filled/50/000000/like.png"
+            alt="Icon"
+          />
+        </div>
+        <h1>
+          1,000+ Clients,<br />
+          100,000+<br />
+          Success<br />
+          Stories
+        </h1>
+        <div class="blue-line"></div>
+      </div>
+
+      <div class="right-section">
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/amica-logo-high-resolution.png"
+            alt="Amica"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/anchorage-digital-bank-high-resolution.png"
+            alt="Anchorage Digital"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2025/02/Oura-Ring-Logo-2-700x123.png"
+            alt="Oura"
+          />
+        </div>
+
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/Arc-updated.png"
+            alt="Arc"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/atlantic-sapphire-high-resolution.png"
+            alt="Atlantic Sapphire"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/business-insider-high-resolution-2048x705.png"
+            alt="Business Insider"
+          />
+        </div>
+
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/cambridge-mobile-telematics-high-resolution-2048x479.png"
+            alt="Cambridge Mobile Telematics"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/kindbody-high-resolution.png"
+            alt="Kindbody"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/minted-high-resolution-2048x625.png"
+            alt="Minted"
+          />
+        </div>
+
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/opendoor-high-resolution-1536x336.png"
+            alt="Opendoor"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/scherdel-high-resolution-2048x328.png"
+            alt="Scherdel"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/theguarantors-high-resolution.png"
+            alt="Transformco Properties"
+          />
+        </div>
+
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/transformco_properties_final.png"
+            alt="The Guarantors"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/verana_health_final.png"
+            alt="Verana Health"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/verra-mobility-high-resolution-2048x779.png"
+            alt="Webflow"
+          />
+        </div>
+
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/vytelle-high-resolution-2048x517.png"
+            alt="Verana Health"
+          />
+        </div>
+        <div class="logo">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2024/04/webflow-new-logo-high-resolution.png"
+            alt="Webflow"
+          />
+        </div>
+      </div>
+    </div>
+
+    <section class="report-section">
+      <div class="report-header">
+        <div class="report-title">
+          <img
+            src="https://img.icons8.com/ios-glyphs/30/000000/bell.png"
+            alt="Bell Icon"
+          />
+          News & Reports
+        </div>
+        <button class="read-all">Read all →</button>
+      </div>
+
+      <div class="report-grid">
+        <div class="report-card">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2022/05/AdobeStock_385843648-e1659719918813.jpeg"
+            alt="News Image"
+          />
+          <div class="report-title-text">
+            2026 Diversity Visa Lottery Results Released
+          </div>
+          <div class="report-date">May 5, 2025</div>
+        </div>
+
+        <div class="report-card">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2018/07/american_flag-flags-america.png"
+            alt="News Image"
+          />
+          <div class="report-title-text">
+            This Week in Immigration: May 2, 2025
+          </div>
+          <div class="report-date">May 2, 2025</div>
+        </div>
+
+        <div class="report-card">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2022/08/capitol-morning-4.jpg"
+            alt="News Image"
+          />
+          <div class="report-title-text">
+            House Republicans Propose $550 Work Permit Renewals, $1,000 Asylum
+            Fee in New Immigration Plan
+          </div>
+          <div class="report-date">May 2, 2025</div>
+        </div>
+
+        <div class="report-card">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2025/04/Trump_Truck-Driver_Executive-Order.jpeg"
+            alt="News Image"
+          />
+          <div class="report-title-text">
+            Trump’s Executive Order on English Proficiency: What Employers of
+            Truck Drivers Need to Know
+          </div>
+          <div class="report-date">April 30, 2025</div>
+        </div>
+      </div>
+
+      <div class="report-grid">
+        <div class="report-card">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2021/04/AdobeStock_279316923-scaled-e1619729824137.jpeg"
+            alt="News Image"
+          />
+          <div class="report-title-text">
+            U.S. Embassy in the Philippines Now Requiring Complete Documents for
+            Visa Interviews
+          </div>
+          <div class="report-date">May 5, 2025</div>
+        </div>
+
+        <div class="report-card">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2025/04/Statue_of_Libery_JPEG-2048x1365.jpeg"
+            alt="News Image"
+          />
+          <div class="report-title-text">
+            Work Is the Top Reason People Immigrate to the U.S., New Data Shows
+          </div>
+          <div class="report-date">May 2, 2025</div>
+        </div>
+
+        <div class="report-card">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2022/07/AdobeStock_388810821_Editorial_Use_Only-scaled-e1659717845502.jpeg"
+            alt="News Image"
+          />
+          <div class="report-title-text">
+            Trump Administration Eyes Major Cuts to U.S. Embassies and
+            Consulates
+          </div>
+          <div class="report-date">May 2, 2025</div>
+        </div>
+
+        <div class="report-card">
+          <img
+            src="https://assets-wp.boundless.com/uploads/2022/05/uscis-1.png"
+            alt="News Image"
+          />
+          <div class="report-title-text">
+            USCIS Now Asking for Biometrics in Some H-1B Cases — What Employers
+            Need to Know
+          </div>
+          <div class="report-date">April 30, 2025</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="report-stats">
+      <div class="stat-box">
+        <img
+          src="https://assets-wp.boundless.com/uploads/2024/04/ratings-square-updated.png"
+          alt="Success Rate"
+        />
+      </div>
+      <div class="stat-box">
+        <img
+          src="https://assets-wp.boundless.com/uploads/2023/12/Customers-stat.png"
+          alt="Immigrants Helped"
+        />
+      </div>
+      <div class="stat-box">
+        <img
+          src="https://assets-wp.boundless.com/uploads/2023/12/Review-stat.png"
+          alt="Trustpilot Score"
+        />
+      </div>
+      <div class="stat-box">
+        <img
+          src="https://assets-wp.boundless.com/uploads/2024/04/bbb-stat-square.png"
+          alt="BBB Rating"
+        />
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <h2>© 2017–2025 Boundless Immigration Inc.</h2>
+        <p
+          style="
+            color: white;
+            font-family: Dancing Script, cursive;
+            font-size: 2rem;
+          "
+        >
+          BOUNDLESS
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footer-contact">
+          <p>Contact Us: +91-1234567890</p>
+          <p>Address: 123, Main Street, Haryana, India</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
