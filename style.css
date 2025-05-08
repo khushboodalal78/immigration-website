@@ -47,9 +47,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-.hero-section video {
+.hero-section img {
   width: 100%;
-  height: 100%;
+  height: 70%;
   object-fit: cover;
 }
 .hero-overlay {
@@ -157,7 +157,7 @@ body {
 /* Button Styling */
 /* Button Styling */
 .btn-individuals {
-  background-color: #fbe58a;
+  background-color: #f1c206;
   color: #d00e0e;
   padding: 10px 20px; /* Reduced padding to make button fit text */
   border: none;
