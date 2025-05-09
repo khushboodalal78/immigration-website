@@ -231,7 +231,6 @@ cursor: pointer;
 
 .image-container img {
   width: 100%;
-  border-radius: 10px;
 }
 .second-con {
   display: flex;
@@ -343,6 +342,7 @@ cursor: pointer;
 }
 
 .container {
+  width: 100vw;
   display: flex;
   padding: 60px 40px;
   align-items: flex-start;
@@ -350,23 +350,23 @@ cursor: pointer;
 }
 
 .left-section {
-  max-width: 350px;
+  max-width: 450px;
 }
 
 .icon-box {
   background-color: #e7f47a;
   border-radius: 12px;
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .icon-box img {
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
 }
 
 .left-section h1 {
