@@ -331,7 +331,7 @@ cursor: pointer;
 }
 .service-item {
   display: inline-block;
-  width: 48%;
+  width: 46%;
   height: 194px;
   margin-bottom: 20px;
 }
@@ -356,7 +356,8 @@ cursor: pointer;
 }
 
 .left-section {
-  max-width: 450px;
+  min-width: 500px;
+  letter-spacing: 7px;
 }
 
 .icon-box {
