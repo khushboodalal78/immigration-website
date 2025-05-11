@@ -331,7 +331,7 @@ cursor: pointer;
 }
 .service-item {
   display: inline-block;
-  width: 46%;
+  width: 48%;
   height: 194px;
   margin-bottom: 20px;
 }
@@ -344,7 +344,7 @@ cursor: pointer;
   padding-bottom: 20px;
 }
 .service-item span {
-  font-size: 32.92px;
+  font-size: 32.px;
   height: 126px;
 }
 .container {
@@ -356,59 +356,66 @@ cursor: pointer;
 }
 
 .left-section {
-  min-width: 500px;
-  letter-spacing: 7px;
+  width: 40%;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: row;
 }
 
 .icon-box {
-  background-color: #e7f47a;
-  border-radius: 12px;
-  width: 60px;
+  width: 70px;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
 }
 
 .icon-box img {
-  width: 36px;
-  height: 36px;
+  background-color: #e7f47a;
+  border-radius: 12px;
+  padding: 2px;
+  width: 30px;
+  height: 30px;
 }
 
-.left-section h1 {
+.left-section h2 {
   font-size: 48px;
   line-height: 1.2;
   font-weight: normal;
   color: #3a342e;
+  letter-spacing: 2px;
   margin: 0;
 }
 
 .blue-line {
-  width: 100%;
+  width: 90%;
   height: 5px;
   background-color: #f3e700;
   margin-top: 20px;
 }
 
 .right-section {
+  width: 100%;
+  height: auto;
   flex: 1;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px 60px;
-  padding-left: 60px;
+  padding-left: 5%;
 }
+
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #000;
 }
 
-.logo img {
-  max-height: 40px;
-  max-width: 100%;
+.line .logo img {
+  height: 90%;
+  width: 60%;
   filter: grayscale(100%);
+  padding: 5%;
 }
 
 @media (max-width: 900px) {
@@ -527,6 +534,7 @@ cursor: pointer;
   max-width: 1170px;
   margin: 0 auto;
   display: grid;
+  grid-row: auto;
   gap: 2rem;
   text-align: center;
 }
@@ -628,4 +636,29 @@ cursor: pointer;
     margin-bottom: 20px;
   }
 }
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 96%;
+  max-width: 1400px;
+  margin: 50px;
+  background-color: #fff77a;
+  
+  box-sizing: border-box;
+}
+
+.stat-card {
+  background: #fff77a;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-card img {
+  width: 100%;
+  height: auto;
+}
+    
 
