@@ -332,15 +332,21 @@ cursor: pointer;
 .service-item {
   display: inline-block;
   width: 48%;
+  height: 194px;
   margin-bottom: 20px;
 }
 .service-item i {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
   display: block;
   color: #fbdbb7;
+  height: 48px;
+  padding-bottom: 20px;
 }
-
+.service-item span {
+  font-size: 32.92px;
+  height: 126px;
+}
 .container {
   width: 100vw;
   display: flex;
